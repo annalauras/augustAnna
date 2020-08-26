@@ -46,7 +46,7 @@ h1 {
 
     .content {
         display: grid;
-        grid-template-columns: 3fr 8fr;                               
+        grid-template-columns: 2fr 8fr;                               
     }
     
     .my-name {
@@ -108,7 +108,7 @@ h1 {
     
     #main {
         transition: margin-left .5s; 
-        padding-left: 10px;
+        padding-left: 15px;
         position: fixed;
     }
     
