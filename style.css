@@ -5,6 +5,14 @@ a {
     color: black;
 }
 
+a:hover {
+    color: #f1f1f1;
+}
+
+.special {
+    font-family: 'Lora', serif;
+}
+
 
 body {
     font-family: 'Roboto', sans-serif;
