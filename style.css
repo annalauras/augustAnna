@@ -108,7 +108,7 @@ h1 {
     
     #main {
         transition: margin-left .5s; 
-        /* padding: 20px; */
+        padding-left: 10px;
         position: fixed;
     }
     
