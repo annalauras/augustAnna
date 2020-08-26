@@ -35,6 +35,10 @@ h1 {
     width: 350px;
 }
 
+.openbtn {
+    background-color: none;
+}
+
 /* Mobile */
 
 @media (max-width: 755px) {
