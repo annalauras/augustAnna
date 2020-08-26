@@ -35,9 +35,6 @@ h1 {
     width: 350px;
 }
 
-.openbtn {
-    background-color: none;
-}
 
 /* Mobile */
 
@@ -46,14 +43,10 @@ h1 {
     li:first-child {
         display: none;
     }
-    .content {
-        display: grid;
-        grid-template-columns: 2fr 9fr;                               
-    }
 
     .content {
         display: grid;
-        grid-template-columns: 2fr 9fr;                               
+        grid-template-columns: 3fr 8fr;                               
     }
     
     .my-name {
@@ -115,7 +108,7 @@ h1 {
     
     #main {
         transition: margin-left .5s; 
-        padding: 20px;
+        /* padding: 20px; */
         position: fixed;
     }
     
@@ -124,7 +117,6 @@ h1 {
         top: 0;
         padding-left: 0;
         cursor: pointer;
-        background-color: none;
         color: black;
         padding-top: 10px;
         border: none;
