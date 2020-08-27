@@ -322,7 +322,7 @@ h1 {
 
 } 
 
-@media (min-width: 1800px) {
+@media (min-width: 1202px) {
 
     .content {
         display: grid;
