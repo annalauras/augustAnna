@@ -324,6 +324,11 @@ h1 {
 
 @media (min-width: 2000px) {
 
+    .content {
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr;                               
+    }
+
     li {
         padding-left: 20em;
     }
