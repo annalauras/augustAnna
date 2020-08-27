@@ -9,11 +9,6 @@ a:hover {
     color: #f1f1f1;
 }
 
-.special {
-    font-family: 'Lora', serif;
-}
-
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -276,7 +271,7 @@ h1 {
 
 /* Extra large screens */
 
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
     .content {
         display: grid;
         grid-template-columns: 5fr 5fr 5fr;                               
@@ -326,3 +321,11 @@ h1 {
     }
 
 } 
+
+@media (min-width: 2000px) {
+
+    li {
+        padding-left: 20em;
+    }
+
+}
