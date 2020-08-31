@@ -308,3 +308,9 @@ h1 {
 
 } 
 
+@media (min-width: 1920px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 3fr 6fr;                               
+    }  
+}
