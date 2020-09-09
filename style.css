@@ -302,5 +302,12 @@ h1 {
         padding-left: .5em;
     }
 
-} 
+}
+
+@media (min-width: 1200px) {
+    .content {
+        display: grid;
+        grid-template-columns: 2fr 7fr 10fr;
+    }
+}
 
