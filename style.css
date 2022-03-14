@@ -49,9 +49,10 @@ img {
 }
 
 
+
 /* Bigger than mobile */
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     
     .content {
         display: grid;
@@ -61,19 +62,6 @@ img {
             "side head ."
             ". main .";                               
     }
- 
-    /* .info {
-        grid-column: 2;
-    }
-
-    .center-screen {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        min-height: 100vh;
-      } */
 }
 
 /* Container specifics */
